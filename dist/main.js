@@ -7,8 +7,38 @@
  * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
  */
 /******/ (() => { // webpackBootstrap
-/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
+
+/***/ "./src/about.js":
+/*!**********************!*\
+  !*** ./src/about.js ***!
+  \**********************/
+/***/ (() => {
+
+eval("\n\n//# sourceURL=webpack://restaurant-page/./src/about.js?");
+
+/***/ }),
+
+/***/ "./src/app.js":
+/*!********************!*\
+  !*** ./src/app.js ***!
+  \********************/
+/***/ (() => {
+
+eval("\n\n//# sourceURL=webpack://restaurant-page/./src/app.js?");
+
+/***/ }),
+
+/***/ "./src/home.js":
+/*!*********************!*\
+  !*** ./src/home.js ***!
+  \*********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nfunction loadHome() {\n    // Get the 'content' div\n    const content = document.getElementById('content');\n\n    // Clear previous content\n    content.innerHTML = '';\n\n    // Create a <h1> element and set its text\n    const heading = document.createElement('h1');\n    heading.textContent = 'GastRo-bot Food Truck';\n\n    // Create an <img> element and set its src and alt attributes\n    const image = document.createElement('img');\n    // Assuming 'gastro-bot.png' will be handled by Webpack and placed in 'dist' during the build\n    // Use require to ensure webpack processes the file path correctly\n    image.src = __webpack_require__(/*! ./gastro-bot.png */ \"./src/gastro-bot.png\");\n    image.alt = 'GastRo-bot';\n\n    // Create a <p> element and set its text\n    const paragraph = document.createElement('p');\n    paragraph.textContent = 'Experience the future of dining with GastRo-bot, the fully autonomous food truck that redefines convenience and quality. Every aspect of our service, from navigating the streets to crafting delectable dishes and curating an innovative menu, is managed by our advanced onboard AI. Prepare to be pleasantly surprised and fall in love with a culinary journey unlike any other. Welcome to the unexpected pinnacle of food innovation.';\n\n    // Append the newly created elements to the 'content' div\n    content.appendChild(heading);\n    content.appendChild(image);\n    content.appendChild(paragraph);\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (loadHome);\n\n//# sourceURL=webpack://restaurant-page/./src/home.js?");
+
+/***/ }),
 
 /***/ "./src/index.js":
 /*!**********************!*\
@@ -16,17 +46,18 @@
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _pageLoad__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./pageLoad */ \"./src/pageLoad.js\");\n\n\ndocument.addEventListener('DOMContentLoaded', _pageLoad__WEBPACK_IMPORTED_MODULE_0__[\"default\"]);\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _home_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./home.js */ \"./src/home.js\");\n/* harmony import */ var _menu_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./menu.js */ \"./src/menu.js\");\n/* harmony import */ var _menu_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_menu_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _app_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app.js */ \"./src/app.js\");\n/* harmony import */ var _app_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_app_js__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _about_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./about.js */ \"./src/about.js\");\n/* harmony import */ var _about_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_about_js__WEBPACK_IMPORTED_MODULE_3__);\n\n\n\n\n\nfunction setupTabs() {\n    document.getElementById('homeBtn').addEventListener('click', _home_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"]);\n    document.getElementById('menuBtn').addEventListener('click', (_menu_js__WEBPACK_IMPORTED_MODULE_1___default()));\n    document.getElementById('appBtn').addEventListener('click', (_app_js__WEBPACK_IMPORTED_MODULE_2___default()));\n    document.getElementById('aboutBtn').addEventListener('click', (_about_js__WEBPACK_IMPORTED_MODULE_3___default()));\n}\n\n// Initial page load\ndocument.addEventListener('DOMContentLoaded', () => {\n    (0,_home_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n    setupTabs();\n});\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
 
 /***/ }),
 
-/***/ "./src/pageLoad.js":
-/*!*************************!*\
-  !*** ./src/pageLoad.js ***!
-  \*************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ "./src/menu.js":
+/*!*********************!*\
+  !*** ./src/menu.js ***!
+  \*********************/
+/***/ (() => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nfunction loadHomePage() {\n    // Get the 'content' div\n    const content = document.getElementById('content');\n\n    // Clear previous content\n    content.innerHTML = '';\n\n    // Create a <h1> element and set its text\n    const heading = document.createElement('h1');\n    heading.textContent = 'GastRo-bot Food Truck';\n\n    // Create an <img> element and set its src and alt attributes\n    const image = document.createElement('img');\n    // Assuming 'gastro-bot.png' will be handled by Webpack and placed in 'dist' during the build\n    // Use require to ensure webpack processes the file path correctly\n    image.src = __webpack_require__(/*! ./gastro-bot.png */ \"./src/gastro-bot.png\");\n    image.alt = 'GastRo-bot';\n\n    // Create a <p> element and set its text\n    const paragraph = document.createElement('p');\n    paragraph.textContent = 'Experience the future of dining with GastRo-bot, the fully autonomous food truck that redefines convenience and quality. Every aspect of our service, from navigating the streets to crafting delectable dishes and curating an innovative menu, is managed by our advanced onboard AI. Prepare to be pleasantly surprised and fall in love with a culinary journey unlike any other. Welcome to the unexpected pinnacle of food innovation.';\n\n    // Append the newly created elements to the 'content' div\n    content.appendChild(heading);\n    content.appendChild(image);\n    content.appendChild(paragraph);\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (loadHomePage);\n\n//# sourceURL=webpack://restaurant-page/./src/pageLoad.js?");
+eval("\n\n//# sourceURL=webpack://restaurant-page/./src/menu.js?");
 
 /***/ }),
 
@@ -36,6 +67,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 eval("module.exports = __webpack_require__.p + \"d0e26fe53fb2f739627a.png\";\n\n//# sourceURL=webpack://restaurant-page/./src/gastro-bot.png?");
 
 /***/ })
@@ -67,6 +99,18 @@ eval("module.exports = __webpack_require__.p + \"d0e26fe53fb2f739627a.png\";\n\n
 /******/ 	}
 /******/ 	
 /************************************************************************/
+/******/ 	/* webpack/runtime/compat get default export */
+/******/ 	(() => {
+/******/ 		// getDefaultExport function for compatibility with non-harmony modules
+/******/ 		__webpack_require__.n = (module) => {
+/******/ 			var getter = module && module.__esModule ?
+/******/ 				() => (module['default']) :
+/******/ 				() => (module);
+/******/ 			__webpack_require__.d(getter, { a: getter });
+/******/ 			return getter;
+/******/ 		};
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/define property getters */
 /******/ 	(() => {
 /******/ 		// define getter functions for harmony exports

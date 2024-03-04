@@ -1,4 +1,4 @@
-function loadHomePage() {
+function loadHome() {
     // Get the 'content' div
     const content = document.getElementById('content');
 
@@ -26,4 +26,4 @@ function loadHomePage() {
     content.appendChild(paragraph);
 }
 
-export default loadHomePage;
+export default loadHome;

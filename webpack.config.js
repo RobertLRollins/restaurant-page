@@ -10,11 +10,14 @@ module.exports = {
     module: {
         rules: [
             {
+                test: /\.css$/,
+                use: ['style-loader', 'css-loader'],
+            },
+            {
                 // This rule handles image files
                 test: /\.(png|svg|jpg|jpeg|gif)$/i,
                 type: 'asset/resource',
             },
-            // You can add more rules here for other types of files, like CSS, JS, etc.
         ],
     },
 };
