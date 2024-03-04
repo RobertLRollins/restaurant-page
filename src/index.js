@@ -1,1 +1,3 @@
-console.log('Hello Gas!');
+import loadHomePage from './pageLoad';
+
+document.addEventListener('DOMContentLoaded', loadHomePage);
