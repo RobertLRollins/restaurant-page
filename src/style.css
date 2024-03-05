@@ -9,3 +9,8 @@ h1 {
 p {
     font-size: 60px;
 }
+
+.menuItem {
+    display: flex;
+    flex-direction: column;
+}

@@ -7,7 +7,6 @@ function setupTabs() {
     document.getElementById('homeBtn').addEventListener('click', loadHome);
     document.getElementById('menuBtn').addEventListener('click', loadMenu);
     document.getElementById('appBtn').addEventListener('click', loadApp);
-    document.getElementById('aboutBtn').addEventListener('click', loadAbout);
 }
 
 // Initial page load

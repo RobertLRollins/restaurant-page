@@ -1,26 +1,20 @@
 function loadHome() {
-    // Get the 'content' div
+
     const content = document.getElementById('content');
 
     // Clear previous content
     content.innerHTML = '';
 
-    // Create a <h1> element and set its text
     const heading = document.createElement('h1');
     heading.textContent = 'GastRo-bot Food Truck';
 
-    // Create an <img> element and set its src and alt attributes
     const image = document.createElement('img');
-    // Assuming 'gastro-bot.png' will be handled by Webpack and placed in 'dist' during the build
-    // Use require to ensure webpack processes the file path correctly
     image.src = require('./gastro-bot.png');
     image.alt = 'GastRo-bot';
 
-    // Create a <p> element and set its text
     const paragraph = document.createElement('p');
-    paragraph.textContent = 'Experience the future of dining with GastRo-bot, the fully autonomous food truck that redefines convenience and quality. Every aspect of our service, from navigating the streets to crafting delectable dishes and curating an innovative menu, is managed by our advanced onboard AI. Prepare to be pleasantly surprised and fall in love with a culinary journey unlike any other. Welcome to the unexpected pinnacle of food innovation.';
+    paragraph.textContent = 'Discover GastRo-bot, the pioneering, fully autonomous food truck that’s not just transforming street food but setting new standards in sustainability. Every element of our service, from navigating city streets to crafting exceptional dishes and devising an inspired menu, is meticulously managed by our state-of-the-art onboard AI. But GastRo-bot goes beyond culinary excellence; it champions eco-friendly practices, utilizing sustainable ingredients, and innovative food sources like lab-grown proteins and vertical farm vegetables to ensure every meal is a step towards a more sustainable future. Embrace a dining experience that surprises, delights, and contributes positively to our planet. Welcome to GastRo-bot, where groundbreaking technology meets environmental responsibility in the culinary adventure of tomorrow.';
 
-    // Append the newly created elements to the 'content' div
     content.appendChild(heading);
     content.appendChild(image);
     content.appendChild(paragraph);

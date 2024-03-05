@@ -9,16 +9,6 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/about.js":
-/*!**********************!*\
-  !*** ./src/about.js ***!
-  \**********************/
-/***/ (() => {
-
-eval("\n\n//# sourceURL=webpack://restaurant-page/./src/about.js?");
-
-/***/ }),
-
 /***/ "./src/app.js":
 /*!********************!*\
   !*** ./src/app.js ***!
@@ -36,7 +26,7 @@ eval("\n\n//# sourceURL=webpack://restaurant-page/./src/app.js?");
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nfunction loadHome() {\n    // Get the 'content' div\n    const content = document.getElementById('content');\n\n    // Clear previous content\n    content.innerHTML = '';\n\n    // Create a <h1> element and set its text\n    const heading = document.createElement('h1');\n    heading.textContent = 'GastRo-bot Food Truck';\n\n    // Create an <img> element and set its src and alt attributes\n    const image = document.createElement('img');\n    // Assuming 'gastro-bot.png' will be handled by Webpack and placed in 'dist' during the build\n    // Use require to ensure webpack processes the file path correctly\n    image.src = __webpack_require__(/*! ./gastro-bot.png */ \"./src/gastro-bot.png\");\n    image.alt = 'GastRo-bot';\n\n    // Create a <p> element and set its text\n    const paragraph = document.createElement('p');\n    paragraph.textContent = 'Experience the future of dining with GastRo-bot, the fully autonomous food truck that redefines convenience and quality. Every aspect of our service, from navigating the streets to crafting delectable dishes and curating an innovative menu, is managed by our advanced onboard AI. Prepare to be pleasantly surprised and fall in love with a culinary journey unlike any other. Welcome to the unexpected pinnacle of food innovation.';\n\n    // Append the newly created elements to the 'content' div\n    content.appendChild(heading);\n    content.appendChild(image);\n    content.appendChild(paragraph);\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (loadHome);\n\n//# sourceURL=webpack://restaurant-page/./src/home.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nfunction loadHome() {\n\n    const content = document.getElementById('content');\n\n    // Clear previous content\n    content.innerHTML = '';\n\n    const heading = document.createElement('h1');\n    heading.textContent = 'GastRo-bot Food Truck';\n\n    const image = document.createElement('img');\n    image.src = __webpack_require__(/*! ./gastro-bot.png */ \"./src/gastro-bot.png\");\n    image.alt = 'GastRo-bot';\n\n    const paragraph = document.createElement('p');\n    paragraph.textContent = 'Discover GastRo-bot, the pioneering, fully autonomous food truck that’s not just transforming street food but setting new standards in sustainability. Every element of our service, from navigating city streets to crafting exceptional dishes and devising an inspired menu, is meticulously managed by our state-of-the-art onboard AI. But GastRo-bot goes beyond culinary excellence; it champions eco-friendly practices, utilizing sustainable ingredients, and innovative food sources like lab-grown proteins and vertical farm vegetables to ensure every meal is a step towards a more sustainable future. Embrace a dining experience that surprises, delights, and contributes positively to our planet. Welcome to GastRo-bot, where groundbreaking technology meets environmental responsibility in the culinary adventure of tomorrow.';\n\n    content.appendChild(heading);\n    content.appendChild(image);\n    content.appendChild(paragraph);\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (loadHome);\n\n//# sourceURL=webpack://restaurant-page/./src/home.js?");
 
 /***/ }),
 
@@ -47,7 +37,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _home_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./home.js */ \"./src/home.js\");\n/* harmony import */ var _menu_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./menu.js */ \"./src/menu.js\");\n/* harmony import */ var _menu_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_menu_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _app_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app.js */ \"./src/app.js\");\n/* harmony import */ var _app_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_app_js__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _about_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./about.js */ \"./src/about.js\");\n/* harmony import */ var _about_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_about_js__WEBPACK_IMPORTED_MODULE_3__);\n\n\n\n\n\nfunction setupTabs() {\n    document.getElementById('homeBtn').addEventListener('click', _home_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"]);\n    document.getElementById('menuBtn').addEventListener('click', (_menu_js__WEBPACK_IMPORTED_MODULE_1___default()));\n    document.getElementById('appBtn').addEventListener('click', (_app_js__WEBPACK_IMPORTED_MODULE_2___default()));\n    document.getElementById('aboutBtn').addEventListener('click', (_about_js__WEBPACK_IMPORTED_MODULE_3___default()));\n}\n\n// Initial page load\ndocument.addEventListener('DOMContentLoaded', () => {\n    (0,_home_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n    setupTabs();\n});\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _home_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./home.js */ \"./src/home.js\");\n/* harmony import */ var _menu_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./menu.js */ \"./src/menu.js\");\n/* harmony import */ var _app_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app.js */ \"./src/app.js\");\n/* harmony import */ var _app_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_app_js__WEBPACK_IMPORTED_MODULE_2__);\nObject(function webpackMissingModule() { var e = new Error(\"Cannot find module './about.js'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }());\n\n\n\n\n\nfunction setupTabs() {\n    document.getElementById('homeBtn').addEventListener('click', _home_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"]);\n    document.getElementById('menuBtn').addEventListener('click', _menu_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"]);\n    document.getElementById('appBtn').addEventListener('click', (_app_js__WEBPACK_IMPORTED_MODULE_2___default()));\n}\n\n// Initial page load\ndocument.addEventListener('DOMContentLoaded', () => {\n    (0,_home_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n    setupTabs();\n});\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
 
 /***/ }),
 
@@ -55,9 +45,10 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _hom
 /*!*********************!*\
   !*** ./src/menu.js ***!
   \*********************/
-/***/ (() => {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("\n\n//# sourceURL=webpack://restaurant-page/./src/menu.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nfunction loadMenu() {\n\n    const content = document.getElementById('content');\n\n    content.innerHTML = '';\n\n    const menu = document.createElement('div');\n    menu.classList.add('menu');\n\n    // Menu items\n    //menuItem1\n    const menuItem1 = document.createElement('p');\n    menuItem1.classList.add('menuItem');\n    menuItem1.textContent = 'Pizza - Delicious cheese pizza';\n    menu.appendChild(menuItem1);\n\n    const image1 = document.createElement('img');\n    image1.src = __webpack_require__(/*! ./gastro-bot.png */ \"./src/gastro-bot.png\");\n    image1.alt = 'GastRo-bot';\n    menuItem1.appendChild(image1);\n\n    //menuItem2\n    const menuItem2 = document.createElement('p');\n    menuItem2.classList.add('menuItem');\n    menuItem2.textContent = 'Pizza - Delicious cheese pizza';\n    menu.appendChild(menuItem2);\n\n    const image2 = document.createElement('img');\n    image2.src = __webpack_require__(/*! ./gastro-bot.png */ \"./src/gastro-bot.png\");\n    image2.alt = 'GastRo-bot';\n    menuItem2.appendChild(image2);\n\n    content.appendChild(menu);\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (loadMenu);\n\n//# sourceURL=webpack://restaurant-page/./src/menu.js?");
 
 /***/ }),
 
