@@ -1,7 +1,6 @@
 import loadHome from './home.js';
 import loadMenu from './menu.js';
 import loadApp from './app.js';
-import loadAbout from './about.js';
 
 function setupTabs() {
     document.getElementById('homeBtn').addEventListener('click', loadHome);
