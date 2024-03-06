@@ -1,3 +1,17 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: blueviolet;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 button {
     font-size: 45px;
 }
@@ -18,6 +32,22 @@ p {
     font-size: 45px;
 }
 
+.imageDiv {
+    width: 1500px;
+    box-shadow: inset 0px 0px 60px 60px rgba(0, 0, 0, 0.9);
+}
+
+.homeImage {
+    width: 1500px;
+    position: relative;
+    z-index: -2;
+}
+
+.homeParagraph {
+    width: 1500px;
+    text-align: center;
+}
+
 .menuItem {
     display: flex;
     flex-direction: column;
@@ -25,4 +55,5 @@ p {
 
 .menuImage {
     width: 1000px;
+    box-shadow: inset 0px 0px 20px 10px #000000;
 }
