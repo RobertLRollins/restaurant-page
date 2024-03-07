@@ -48,7 +48,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _hom
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nfunction loadMenu() {\n\n    const content = document.getElementById('content');\n\n    content.innerHTML = '';\n\n    const menu = document.createElement('div');\n    menu.classList.add('menu');\n\n    const menuHeading = document.createElement('h2');\n    menuHeading.classList.add('menuHeading');\n    menuHeading.textContent = 'Menu';\n    menu.appendChild(menuHeading);\n\n    // Menu items\n    //menuItem1\n    const menuItem1 = document.createElement('h3');\n    menuItem1.classList.add('menuItem');\n    menuItem1.textContent = 'Synth-Protein Tacos:';\n    menu.appendChild(menuItem1);\n\n    const paragraph1 = document.createElement('p');\n    paragraph1.classList.add('paragraph1');\n    paragraph1.textContent = 'A delightful fusion of lab-grown protein, seasoned with a blend of futuristic spices, served in algae-based biodegradable taco shells.';\n    menuItem1.appendChild(paragraph1);\n\n    const image1 = document.createElement('img');\n    image1.classList.add('menuImage');\n    image1.src = __webpack_require__(/*! ./gastro-bot.png */ \"./src/gastro-bot.png\");\n    image1.alt = 'GastRo-bot';\n    menuItem1.appendChild(image1);\n\n    //menuItem2\n    const menuItem2 = document.createElement('h3');\n    menuItem2.classList.add('menuItem');\n    menuItem2.textContent = 'Neo-Pho Bowls:';\n    menu.appendChild(menuItem2);\n\n    const paragraph2 = document.createElement('p');\n    paragraph2.classList.add('paragraph1');\n    paragraph2.textContent = 'A twist on the classic Pho, featuring cultured beef broth and noodles made from insect protein, garnished with hydroponic herbs and edible flowers.';\n    menuItem2.appendChild(paragraph2);\n\n    const image2 = document.createElement('img');\n    image2.classList.add('menuImage');\n    image2.src = __webpack_require__(/*! ./gastro-bot.png */ \"./src/gastro-bot.png\");\n    image2.alt = 'GastRo-bot';\n    menuItem2.appendChild(image2);\n\n    content.appendChild(menu);\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (loadMenu);\n\n//# sourceURL=webpack://restaurant-page/./src/menu.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nfunction loadMenu() {\n\n    const content = document.getElementById('content');\n\n    content.innerHTML = '';\n\n    const menu = document.createElement('div');\n    menu.classList.add('menu');\n\n    const menuHeading = document.createElement('h2');\n    menuHeading.classList.add('menuHeading');\n    menuHeading.textContent = 'Menu';\n    menu.appendChild(menuHeading);\n\n    // Menu Items\n    //menuItem1\n    const menuDiv1 = document.createElement('div');\n    menuDiv1.classList.add('menuItem');\n    menu.appendChild(menuDiv1);\n\n    const menuItemName1 = document.createElement('h3');\n    menuItemName1.textContent = 'Synth-Protein Tacos:';\n    menuDiv1.appendChild(menuItemName1);\n\n    const paragraph1 = document.createElement('p');\n    paragraph1.classList.add('paragraph1');\n    paragraph1.textContent = 'A delightful fusion of lab-grown protein, seasoned with a blend of sustainable spices, served in algae-based biodegradable taco shells.';\n    menuDiv1.appendChild(paragraph1);\n\n    const menuImageDiv1 = document.createElement('div');\n    menuImageDiv1.classList.add('menuImageDiv');\n    menuDiv1.appendChild(menuImageDiv1);\n\n    const image1 = document.createElement('img');\n    image1.classList.add('menuImage');\n    image1.src = __webpack_require__(/*! ./tacos.png */ \"./src/tacos.png\");\n    image1.alt = 'GastRo-bot';\n    menuImageDiv1.appendChild(image1);\n\n    //menuItem2\n    const menuDiv2 = document.createElement('div');\n    menuDiv2.classList.add('menuItem');\n    menu.appendChild(menuDiv2);\n\n    const menuItemName2 = document.createElement('h3');\n    menuItemName2.textContent = 'Neo-Pho Bowls:';\n    menuDiv2.appendChild(menuItemName2);\n\n    const paragraph2 = document.createElement('p');\n    paragraph2.classList.add('paragraph2');\n    paragraph2.textContent = 'A twist on the classic Pho, featuring cultured beef broth and noodles made from insect protein, garnished with hydroponic herbs and edible flowers.';\n    menuDiv2.appendChild(paragraph2);\n\n    const menuImageDiv2 = document.createElement('div');\n    menuImageDiv2.classList.add('menuImageDiv');\n    menuDiv2.appendChild(menuImageDiv2);\n\n    const image2 = document.createElement('img');\n    image2.classList.add('menuImage');\n    image2.src = __webpack_require__(/*! ./pho.png */ \"./src/pho.png\");\n    image2.alt = 'GastRo-bot';\n    menuImageDiv2.appendChild(image2);\n\n    //menuItem3\n    const menuDiv3 = document.createElement('div');\n    menuDiv3.classList.add('menuItem');\n    menu.appendChild(menuDiv3);\n\n    const menuItemName3 = document.createElement('h3');\n    menuItemName3.textContent = 'Vertical Farm Greens Salad:';\n    menuDiv3.appendChild(menuItemName3);\n\n    const paragraph3 = document.createElement('p');\n    paragraph3.classList.add('paragraph3');\n    paragraph3.textContent = 'A refreshing mix of greens and vegetables harvested from vertical farms, topped with a nutrient-rich, spirulina-based dressing.';\n    menuDiv3.appendChild(paragraph3);\n\n    const menuImageDiv3 = document.createElement('div');\n    menuImageDiv3.classList.add('menuImageDiv');\n    menuDiv3.appendChild(menuImageDiv3);\n\n    const image3 = document.createElement('img');\n    image3.classList.add('menuImage');\n    image3.src = __webpack_require__(/*! ./salad.png */ \"./src/salad.png\");\n    image3.alt = 'GastRo-bot';\n    menuImageDiv3.appendChild(image3);\n\n    //menuItem4\n    const menuDiv4 = document.createElement('div');\n    menuDiv4.classList.add('menuItem');\n    menu.appendChild(menuDiv4);\n\n    const menuItemName4 = document.createElement('h3');\n    menuItemName4.textContent = '3D-Printed Nigiri:';\n    menuDiv4.appendChild(menuItemName4);\n\n    const paragraph4 = document.createElement('p');\n    paragraph4.classList.add('paragraph3');\n    paragraph4.textContent = 'Customizable nigiri featuring 3D-printed fish alternatives, wrapped in lab-cultivated seaweed, served with synthetic wasabi and soy sauce.';\n    menuDiv4.appendChild(paragraph4);\n\n    const menuImageDiv4 = document.createElement('div');\n    menuImageDiv4.classList.add('menuImageDiv');\n    menuDiv4.appendChild(menuImageDiv4);\n\n    const image4 = document.createElement('img');\n    image4.classList.add('menuImage');\n    image4.src = __webpack_require__(/*! ./nigiri.png */ \"./src/nigiri.png\");\n    image4.alt = 'GastRo-bot';\n    menuImageDiv4.appendChild(image4);\n\n    content.appendChild(menu);\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (loadMenu);\n\n//# sourceURL=webpack://restaurant-page/./src/menu.js?");
 
 /***/ }),
 
@@ -60,6 +60,50 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 "use strict";
 eval("module.exports = __webpack_require__.p + \"d0e26fe53fb2f739627a.png\";\n\n//# sourceURL=webpack://restaurant-page/./src/gastro-bot.png?");
+
+/***/ }),
+
+/***/ "./src/nigiri.png":
+/*!************************!*\
+  !*** ./src/nigiri.png ***!
+  \************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"c576ca48871164ad0ef2.png\";\n\n//# sourceURL=webpack://restaurant-page/./src/nigiri.png?");
+
+/***/ }),
+
+/***/ "./src/pho.png":
+/*!*********************!*\
+  !*** ./src/pho.png ***!
+  \*********************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"f3c173a27964c06bb53b.png\";\n\n//# sourceURL=webpack://restaurant-page/./src/pho.png?");
+
+/***/ }),
+
+/***/ "./src/salad.png":
+/*!***********************!*\
+  !*** ./src/salad.png ***!
+  \***********************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"c80f13e603ed84923655.png\";\n\n//# sourceURL=webpack://restaurant-page/./src/salad.png?");
+
+/***/ }),
+
+/***/ "./src/tacos.png":
+/*!***********************!*\
+  !*** ./src/tacos.png ***!
+  \***********************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"b162d746de5fc92ecb27.png\";\n\n//# sourceURL=webpack://restaurant-page/./src/tacos.png?");
 
 /***/ })
 
