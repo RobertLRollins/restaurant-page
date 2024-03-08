@@ -109,6 +109,102 @@ function loadMenu() {
     image4.alt = 'GastRo-bot';
     menuImageDiv4.appendChild(image4);
 
+    //menuItem5
+    const menuDiv5 = document.createElement('div');
+    menuDiv5.classList.add('menuItem');
+    menu.appendChild(menuDiv5);
+
+    const menuItemName5 = document.createElement('h3');
+    menuItemName5.textContent = 'Energy Bites:';
+    menuDiv5.appendChild(menuItemName5);
+
+    const paragraph5 = document.createElement('p');
+    paragraph5.classList.add('paragraph1');
+    paragraph5.textContent = 'Compact, energy-dense snack balls made from a blend of powdered insects, nuts, and fruits, coated in a layer of edible packaging for minimal waste.';
+    menuDiv5.appendChild(paragraph5);
+
+    const menuImageDiv5 = document.createElement('div');
+    menuImageDiv5.classList.add('menuImageDiv');
+    menuDiv5.appendChild(menuImageDiv5);
+
+    const image5 = document.createElement('img');
+    image5.classList.add('menuImage');
+    image5.src = require('./bites.png');
+    image5.alt = 'GastRo-bot';
+    menuImageDiv5.appendChild(image5);
+
+    //menuItem6
+    const menuDiv6 = document.createElement('div');
+    menuDiv6.classList.add('menuItem');
+    menu.appendChild(menuDiv6);
+
+    const menuItemName6 = document.createElement('h3');
+    menuItemName6.textContent = 'Crispy Cultured Chicken Sliders:';
+    menuDiv6.appendChild(menuItemName6);
+
+    const paragraph6 = document.createElement('p');
+    paragraph6.classList.add('paragraph6');
+    paragraph6.textContent = 'Mini sliders made from cultured chicken meat, seasoned with cajun-inspired spices, served on mini charcoal-activated buns for detox benefits';
+    menuDiv6.appendChild(paragraph6);
+
+    const menuImageDiv6 = document.createElement('div');
+    menuImageDiv6.classList.add('menuImageDiv');
+    menuDiv6.appendChild(menuImageDiv6);
+
+    const image6 = document.createElement('img');
+    image6.classList.add('menuImage');
+    image6.src = require('./sliders.png');
+    image6.alt = 'GastRo-bot';
+    menuImageDiv6.appendChild(image6);
+
+    //menuItem7
+    const menuDiv7 = document.createElement('div');
+    menuDiv7.classList.add('menuItem');
+    menu.appendChild(menuDiv7);
+
+    const menuItemName7 = document.createElement('h3');
+    menuItemName7.textContent = 'Post-Consumer Pie:';
+    menuDiv7.appendChild(menuItemName7);
+
+    const paragraph7 = document.createElement('p');
+    paragraph7.classList.add('paragraph3');
+    paragraph7.textContent = 'A 3D-printed zero-waste dessert made from upcycled food scraps like fruit peels and bread ends, transformed into a delicious pie, symbolizing the full utilization of resources.';
+    menuDiv7.appendChild(paragraph7);
+
+    const menuImageDiv7 = document.createElement('div');
+    menuImageDiv7.classList.add('menuImageDiv');
+    menuDiv7.appendChild(menuImageDiv7);
+
+    const image7 = document.createElement('img');
+    image7.classList.add('menuImage');
+    image7.src = require('./pie.png');
+    image7.alt = 'GastRo-bot';
+    menuImageDiv7.appendChild(image7);
+
+    //menuItem8
+    const menuDiv8 = document.createElement('div');
+    menuDiv8.classList.add('menuItem');
+    menu.appendChild(menuDiv8);
+
+    const menuItemName8 = document.createElement('h3');
+    menuItemName8.textContent = 'Solar-Brewed Beverages:';
+    menuDiv8.appendChild(menuItemName8);
+
+    const paragraph8 = document.createElement('p');
+    paragraph8.classList.add('paragraph8');
+    paragraph8.textContent = 'A range of drinks brewed using solar energy, including synthetically flavored kombucha, algae-infused water, and caffeine shots with adaptogenic herbs.';
+    menuDiv8.appendChild(paragraph8);
+
+    const menuImageDiv8 = document.createElement('div');
+    menuImageDiv8.classList.add('menuImageDiv');
+    menuDiv8.appendChild(menuImageDiv8);
+
+    const image8 = document.createElement('img');
+    image8.classList.add('menuImage');
+    image8.src = require('./beverages.png');
+    image8.alt = 'GastRo-bot';
+    menuImageDiv8.appendChild(image8);
+
     content.appendChild(menu);
 }
 
